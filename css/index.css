@@ -44,10 +44,10 @@ body{min-width: 1200px;}
 .recom_t li:first-child+li+li+li+li{margin-right: 0px;}
 .recom_t li a{width: 130px; height: 40px; display: block; text-align: center; line-height: 40px; border:1px solid #999; font-size: 14px; border-radius: 30px;}
 .recom_t li a:hover{border:1px solid #ffa000; background:#ffa000; color:#fff;}
-.recom_img .r_1,.r_2 { background-repeat: no-repeat; background-position: center;}
+.recom_img .r_1,.r_2 { background-repeat: no-repeat; background-position: center; }
 .recom_img  a{ color: #fff;  }
 .recom_img  a:hover{text-decoration: underline;}
-.recom_img .r_1{width: 795px; height: 300px;}
+.recom_img .r_1{width: 795px; height: 300px; background-size: 100%;}
 .recom_des{height: 70px; width: 100%; background-color:rgba(0,0,0,0.4); bottom: 0; color: #fff;  /*filter:alpha(opacity=50);*/ }
 .recom_des dl dt{font-size: 16px;}
 .recom_des dl dd{font-size: 12px; color: #d8d8d8; margin-top:6px;}
@@ -55,8 +55,9 @@ body{min-width: 1200px;}
 .recom_btn{bottom: 50px; right: 15px; cursor: pointer;}
 .recom_btn span{display:inline-block; width: 22px; height: 6px; cursor: pointer; background: #c5c5c5;}
 .recom_btn span.cover{background: #fff; }
-.recom_img .r_2{width: 384px; height: 300px; }
-.recom_img .r_3{width: 385px; height: 300px;}
+.recom_img .r_2{width: 384px; height: 300px; background-size: 100%;}
+.recom_img .r_3{width: 386px; height: 300px; background-size: 100%;}
+.recom_img .r_3:first-child{width: 388px; height: 300px;}
 .recom_img .ier_3{margin-left: 20px;}
 .recom_img .ier_3:first-child{margin-left:0;}
 

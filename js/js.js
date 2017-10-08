@@ -77,27 +77,33 @@ $(function(){
        	var $oneItem = $('#r_item .r_1');
        	var $oneSpan = $('#oneSpan span');
        	showItem($oneItem,$oneSpan);
+        imgMagnify($oneItem);
 
        	// 第二个小图
        	var $twoItem = $('#r_item2 .r_2');
        	var $twoSpan = $('#twoSpan span');
        	showItem($twoItem,$twoSpan);
+        imgMagnify($twoItem);
 
        	// 第三个小图
        	var $threeItem = $('#r_item3 .r_3');
        	var $threeSpan = $('#threeSpan span');
        	showItem($threeItem,$threeSpan);
+        imgMagnify($threeItem);
 
        	// 第四个小图
        	var $fourItem = $('#r_item4 .r_3');
        	var $fourSpan = $('#fourSpan span');
        	showItem($fourItem,$fourSpan);
+        imgMagnify($fourItem);
 
        	// 第五小图
        	var $fiveItem = $('#r_item5 .r_3');
        	var $fiveSpan = $('#fiveSpan span');
        	showItem($fiveItem,$fiveSpan);
+        imgMagnify($fiveItem);
 
+        // 两图切换效果
        	function showItem(selector,btn){
        		selector.eq(num).show().siblings(selector).hide();
        		btn.mousemove(function(){
@@ -106,6 +112,15 @@ $(function(){
        			selector.eq(num).fadeIn(300).siblings(selector).fadeOut(300);
        		});
        	}
+        // 图片放大效果
+        function imgMagnify(selector){
+          selector.hover(function() {
+            $(this).stop().animate({'background-size': '120%'});
+          }, function() {
+            selector.stop().animate({'background-size': '100%'});
+          });
+        }
+        
        	
 
 
