@@ -125,26 +125,39 @@ $(function(){
 
 
 
-       	/**
-       	 * house_list页面图片两页展示效果
-       	 */
+       	
+         /**
+         * 您已选择
+         */
+        
        	// 过滤选择效果
        	$('#screen dl').each(function(index){
        		$(this).attr('id','filter'+ index);
        		var $filter = $('#filter'+ index + ' dd');
        			$filter.on('click',function(){
        				$(this).addClass('cover').siblings().removeClass('cover');
+              // var filterTxt = $(this).text();
+              // // console.log(filterTxt);
+              // $('#sele').append('<div class="fl f16 select"><span>'+filterTxt+'</span>&nbsp;×</div>');
+              // var hlLen = $('.choose .select').length;
+              // if(hlLen <= 1){
+              //   $('.choose .del').hide();
+              // }else{
+              //   $('.choose .del').show();
+              // }
        			});
        	});
-       	$('.choose .select').on('click',function(){
-       		$(this).hide();
-       	});
-       	var $selectLen = $('.choose .select').length;
-       	
-       	$('.choose .del').on('click',function(){
-       		$('.choose .select').hide();
-       	});
+       	// $('#sele .select').on('click',function(){
+       	// 	$(this).hide();
+       	// });
 
+
+        
+
+
+        /**
+         * house_list页面图片两页展示效果
+         */
        	// 给每个li添加一个唯一id
        	$('.house_list li').each(function(index){
        		$(this).attr('id','hItem'+ index);
@@ -152,6 +165,8 @@ $(function(){
        		var $hSpan = $('#hItem'+ index + ' .h_btn span');
        		showItem($hImg,$hSpan);
        	});
+
+
 
        	//底部推荐房源轮播
        	var reListNum = 0;
@@ -208,6 +223,8 @@ $(function(){
        		});
        		
        	}
+
+
 
 	/*house_list第三列选择器兼容问题*/
 	$('.house_list li:nth-child(3n+0)').css({marginRight:0});

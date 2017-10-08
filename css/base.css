@@ -151,3 +151,4 @@ select{padding:2px;}
 
 /*解决设置windows窗口背景色后输入框和文本域变色的问题*/
 input[type="text"],input[type="password"],select{background: #fff;}
+input:-webkit-autofill{-webkit-box-shadow:0 0 0px 100px white inset;}

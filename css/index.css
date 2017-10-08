@@ -1,7 +1,7 @@
 @charset "utf-8";
 body{color: #333;}
 hr{height: 1px; border: 0; background: #eaeaea; padding: 0; margin: 0;}
-.header{box-shadow: 0 4px 4px #e8e8e8; border-bottom:1px solid #e8e8e8;}
+.header{box-shadow: 0 1px 5px #e8e8e8; border-bottom:1px solid #e8e8e8;}
 a{color: #666; text-decoration: none;}
 body{min-width: 1200px;}
 .h_call{ color: #666; line-height: 40px;}
@@ -20,6 +20,8 @@ body{min-width: 1200px;}
 .banner .prev,.next{background: url(../images/icon_btn.png) no-repeat center; display: block; width: 58px; height: 102px; cursor: pointer; top: 155px;}
 .banner .prev{background-position: 0 0; left:50px;}
 .banner .next{background-position:-58px 0; right: 50px;}
+.banner .prev:hover{background-position:-116px 0;}
+.banner .next:hover{background-position:-174px 0;}
 
 .strip{height: 8px; background-color:#f09e13;}
 .icon{width: 100%; font-size: 0;}
@@ -44,7 +46,7 @@ body{min-width: 1200px;}
 .recom_t li:first-child+li+li+li+li{margin-right: 0px;}
 .recom_t li a{width: 130px; height: 40px; display: block; text-align: center; line-height: 40px; border:1px solid #999; font-size: 14px; border-radius: 30px;}
 .recom_t li a:hover{border:1px solid #ffa000; background:#ffa000; color:#fff;}
-.recom_img .r_1,.r_2 { background-repeat: no-repeat; background-position: center; }
+.recom_img .r_1,.r_2,.r_3 { background-repeat: no-repeat; background-position: center; }
 .recom_img  a{ color: #fff;  }
 .recom_img  a:hover{text-decoration: underline;}
 .recom_img .r_1{width: 795px; height: 300px; background-size: 100%;}

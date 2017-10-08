@@ -6,7 +6,7 @@
 .filter .select{margin-top: 14px; color: #5d5d5d; width:102px; height: 32px; line-height: 32px; text-align: center; border-radius:10px; cursor: pointer;}
 .filter dd.cover{background: #ffa000; color: #fff;}
 .choose .select{margin-top: 14px; color: #5d5d5d; width:102px; height: 32px; line-height: 32px; text-align: center; border:1px solid #c7c7c7; border-radius:0; cursor: pointer; margin-right:10px;}
-.filter .del{color: #ffa000; background: url(./../images/icon_del.png) no-repeat 5px center; width: 120px; border:0; height: 35px; line-height: 35px;padding-left: 30px;margin-top: 13px; cursor: pointer;}
+.filter .del{color: #ffa000; background: url(./../images/icon_del.png) no-repeat 5px center; width: 120px; border:0; height: 35px; line-height: 35px;padding-left: 30px;margin-top: 13px; cursor: pointer; display: none;}
 .filter .sort{color: #ffa000;}
 .h_list{width: 100%; background: #f9fcff;}
 .h_list .house_list{overflow: hidden;}
@@ -17,7 +17,7 @@
 .h_list .h_des dl{font-size: 18px; color: #333;}
 .h_list .h_des dl a:hover{text-decoration: underline;}
 .h_list .h_des dl dd{color:#296ec3; }
-.h_list .h_des dl dd span{padding: 2px 4px; background: #ffa000; color: #fff; border-radius: 2px;}
+.h_list .h_des dl dd span{padding: 0px 3px 2px 3px; background: #ffa000; color: #fff; border-radius: 2px; font-size: 14px;}
 .h_list .h_money{width:110px; text-align: right;}
 .h_list .h_btn{width: 66px; padding-left: 32px;}
 .h_list .h_btn span{width:23px; height: 6px; display: inline-block;*zoom:1;*display: inline; background: #c5c5c5; margin-left: 10px; cursor: pointer;}
