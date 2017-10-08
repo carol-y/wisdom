@@ -1,0 +1,4 @@
+@charset "utf-8";
+.regi_txt{color: #999; padding-left: 20px;}
+/*.regi_box{display: inline-block; width: 15px; height: 15px; border:1px solid #ffa000;z-index: 1; top: 4px;}*/
+.regi_btn{width: 17px; height: 17px;z-index: 2; left: 0; top: 4px;}

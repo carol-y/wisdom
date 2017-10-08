@@ -1,0 +1,20 @@
+@charset "utf-8";
+.login_box{width: 425px; border-radius: 5px; border:5px; background-color:#fff; opacity: 0.92; right: 0;z-index: 1; filter:alpha(opacity=92); height: 490px;}
+.login{width:325px; right: 50px; z-index: 1;}
+.login h3{line-height: 80px; text-align: center; font-size: 26px; font-weight: normal;}
+.login .login_text,.login_ver{width:285px; padding-left: 40px; line-height: 45px; border-radius: 5px; border:1px solid #9b9b9b; background: url(./../images/icon_iphone_o.png) no-repeat 20px center;}
+.login .login_text input{width:270px; line-height: 40px; border:0; background:none; 
+   outline:none; padding-left: 10px;}
+.login .login_text label{left:45px; top: 0; color: #939393;}
+.login .login_hint{color:#f32727; display:block; line-height: 22px; height: 22px;}
+.login .verify{overflow: hidden;}
+.login .login_ver{ background: none; padding-left:25px; width:133px;}
+.login .login_ver input{width:130px; line-height: 40px; border:0; background:none; 
+   outline:none; padding-left: 10px;}
+.login .login_ver label{left:35px; top: 0; color: #939393;}
+.login .ver_btn{width: 160px;height: 47px; display: block; border-radius: 5px; border:0; outline: none; color: #fff; background: #ffa000;}
+.login .ver_btn.cover{ background: #ddd; }
+.login .login_key{background: url(./../images/icon_key_o.png) no-repeat 20px center;}
+.login .submit{display: block; width: 325px; height: 45px; line-height: 45px; text-align: center; color: #fff; border-radius: 5px; color: #fff;background-color: #ffa000; border:0; font-size: 18px; outline: none;}
+.login p{ line-height: 80px; font-size: 16px; color: #333; text-align: center; }
+.login a{color: #ffa000;}

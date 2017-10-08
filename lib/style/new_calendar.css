@@ -1,0 +1,173 @@
+@charset "utf-8";
+
+#index_list_calendar-box {
+	position: absolute;
+	width: 525px;
+	border: 1px solid #c1bcbc;
+	background: #fff;
+	z-index: 999;
+	top: 35px;
+	right:0;
+	padding-bottom: 5px;
+}
+
+.calendar-month {
+	font-size: 12px;
+	color: #333;
+	float: left;
+	width: 260px
+}
+
+.calendar-title {
+	position: relative;
+	color: #322c27;
+	line-height: 40px;
+	text-align: center;
+	border-bottom: 1px solid #E4E4E4;
+	font-weight: 700
+}
+
+.calendar-title h2 {
+	font-size: 15px;
+	text-align: center;
+	font-weight: 700
+}
+
+.calendar-week {
+	position: relative;
+	overflow: hidden
+}
+
+.calendar-month li {
+	float: left;
+	width: 14%;
+	border: 2px solid #fff;
+	height: 32px;
+	line-height: 32px;
+	text-align: center;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	font-weight: 700
+}
+
+.calendar-day {
+	overflow: hidden
+}
+
+.calendar-month .old, .calendar-month .unselectable {
+	color: #DCDCDC;
+	cursor: default
+}
+
+.calendar-month .line3 {
+	line-height: 20px
+}
+
+.calendar-month .cal_select span, .calendar-month .show-date span:hover
+	{
+	color: #fff;
+	background-color: #22bb62;
+	display: inline-block;
+	width: 100%;
+	height: 32px;
+	line-height: 32px;
+	cursor: pointer
+}
+
+.calendar-week li {
+	font-weight: 400
+}
+
+.calendar-week .pink {
+	color: #22bb62
+}
+
+.calendar-month .line3 em {
+	display: block
+}
+
+.calendar-month .cal_select em {
+	color: #fff
+}
+
+.calendar-month .cal_noRoom span {
+	color: #999;
+	background-color: #ddd;
+	display: inline-block;
+	width: 99%;
+	height: 37px;
+	margin-top: 1px;
+	border-radius: 3px
+}
+
+.div_fixed {
+	left: 0;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 9999
+}
+
+.calendar_top {
+	padding: 10px
+}
+
+.cal_te {
+	text-align: center;
+	color: #F05B72;
+	line-height: 15px
+}
+
+.cal_tu {
+	padding: 10px
+}
+
+.marginL25 {
+	margin-left: 25px
+}
+
+.clear_date {
+	display:none;
+	cursor: pointer;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 12px;
+    right: 12px;
+	background: url(/resourcesWeb/v201510/images/clear_data_gray.png) no-repeat center center;
+}
+
+.clear_date:hover {
+	background: url(/resourcesWeb/v201510/images/clear_data_green.png) no-repeat center center
+		!important;
+}
+
+.cal_next, .cal_pre {
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	cursor: pointer
+}
+
+.cal_pre {
+	left: 0;
+	background:
+		url(/resourcesWeb/v201510/images/commom/cal_icon_left_on.png)
+		no-repeat center center
+}
+
+.cal_next {
+	right: 0;
+	background:
+		url(/resourcesWeb/v201510/images/commom/cal_icon_right_on.png)
+		no-repeat center center
+}
+
+.ipt_search {
+	width: 100%;
+	color: #322c27
+}
+
+.calendar input[type="text"]{border:0; text-align:center;}
